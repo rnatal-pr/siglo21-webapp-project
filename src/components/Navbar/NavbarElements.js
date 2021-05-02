@@ -3,8 +3,9 @@ import {Link as LinkR} from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 
 export const Nav = styled.nav`
-background:#000;
+background: #000;
 height: 80px;
+// margin-top:-80px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -18,7 +19,6 @@ z-index: 10;
 }
 `;
 
-
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,6 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-// color: #4AD7D1;
 color: #fff;
 justify-self: flex-start;
 cursor: pointer;
@@ -45,6 +44,7 @@ text-decoration: none;
 export const MobileIcon = styled.div`
 display: none;
 
+
 @media screen and (max-width: 768px){
     display: block;
     position: absolute;
@@ -54,8 +54,9 @@ display: none;
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
+
 }
-`
+`;
 export const NavMenu = styled.ul`
 display: flex;
 align-items: center;
@@ -64,12 +65,12 @@ text-align: center;
 margin-right: -22px;
 
 @media screen and (max-width: 768px){
-    display:none;
+    display: none;
 }
-`
+`;
 export const NavItem = styled.li`
 height: 80px;
-`
+`;
 export const NavLinks = styled(LinkS)`
 color: #fff;
 display: flex;
@@ -79,10 +80,10 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 
-&.active{
-    border-bottom: 3px solid #01bf71
+&:hover{
+    border-bottom: 3px solid #4FCBE9;
 }
-`
+`;
 
 export const NavButton = styled.nav`
 display: flex;
@@ -91,25 +92,25 @@ align-items: center;
 @media screen and (max-width: 768px) {
     display: none;
 }
-`
+`;
 
 export const NavButtonLink = styled(LinkR)`
 border-radius: 50px;
-background: #4FCBE9
-;
+background: #4FCBE9;
 white-space: nowrap;
 padding: 10px 22px;
 color: #010606;
 font-size: 16px;
-outline: none;git a
+outline: none;
 border: none;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration: none;
 
+
 &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color:#010606;
+    color: #010606;
 }
-`
+`;
