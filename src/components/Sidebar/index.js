@@ -24,11 +24,11 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="signup" onClick={toggle}>Sign Up</SidebarLink>
                 </SidebarMenu>
                 <SidebarButtonWrap>
-                    <SidebarRoutes to = "/signin">Sign In</SidebarRoutes>
+                    <SidebarRoutes to="/signin">Sign In</SidebarRoutes>
                 </SidebarButtonWrap>
             </SidebarWrapper>
         </SidebarContainer>
     )
-}
+};
 
 export default Sidebar;

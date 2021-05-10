@@ -14,7 +14,7 @@ import {
 
 const Navbar = ({toggle}) => {
     return (
-    <>
+ 
         <Nav>
             <NavbarContainer>
                 <NavLogo to="/">SigloXXI</NavLogo>
@@ -40,7 +40,7 @@ const Navbar = ({toggle}) => {
                  </NavButton>
             </NavbarContainer>
         </Nav>
-    </>
+ 
     );
 };
 export default Navbar;
