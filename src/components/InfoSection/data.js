@@ -44,7 +44,7 @@ export const homeObjThree = {
     "Complete access to the templates of our services, prepared to be customized by your imagination!",
   buttonLabel: "Get Started",
   imgStart: true,
-  img: require("../../images/svg.svg").default,
+  img: require("../../images/svg5.svg").default,
   alt: "intro",
   dark: true,
   primary: false,
